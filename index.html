@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Programming Job Board</title>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">Employers</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Welcome to the Programming Job Board</h1>
+			<p>Find your dream programming job today!</p>
+			<a href="#" class="btn" id="search-jobs-btn">Search Jobs</a>
+		</section>
+    </section>
+      <section id="featured-jobs">
+        <h2>Featured Jobs</h2>
+        <div id="featured-jobs-container" class="card-container"></div>
+    </section>
+      <section id="filters">
+        <h2>Filter Jobs</h2>
+        <form>
+          <label for="keyword-input">Keyword:</label>
+          <input type="text" id="keyword-input">
+          <label for="location-input">Location:</label>
+          <input type="text" id="location-input">
+          <button type="submit">Apply Filters</button>
+        </form>
+      </section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Programming Job Board</p>
+	</footer>
+</body>
+<script src="app.js"></script>
+</html>
